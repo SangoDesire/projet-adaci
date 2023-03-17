@@ -2,7 +2,7 @@
 :root {
     --bgcolor: #d39219;
     --fontcolor: orange;
-    --imSize: 60px;
+    --imSize: 40px;
 }
 
 * {
