@@ -1,0 +1,27 @@
+
+<div class="container">
+<div class="frame">
+  <div class="nav">
+    <ul class="links">
+      <li class="signin-active"><a class="btn" (click)="onclickExistant()"> Utilisateur existant
+        </a>
+      </li>
+      <li class="signup-active"><a class="btn" (click)="onclickNouvo()">Nouveau </a></li>
+    </ul>
+  </div>
+  <div *ngIf="existant">
+   <app-connexion>
+  </app-connexion>
+
+  </div>
+
+<div *ngIf="nouvo">
+
+  <app-inscription>
+  </app-inscription>
+
+</div>
+</div>
+</div>
+
+

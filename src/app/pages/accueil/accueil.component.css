@@ -1,0 +1,102 @@
+:root {
+    --bgcolor: #d39219;
+    --fontcolorwhite: #fff;
+    --imSize: 60px;
+}
+
+
+/* The navigation bar */
+
+.navbar {
+    overflow: hidden;
+    /* background-color: #333; */
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+}
+
+
+/* début header */
+
+header {
+    height: 100px;
+}
+
+.logo-navbar {
+    height: var(--imSize);
+    width: var(--imSize);
+    margin: 0 0 0 20px;
+}
+
+.navbar_bgcolor {
+    background-color: var(--bgcolor) !important;
+}
+
+.navbar_bgcolor a {}
+
+.navbar_bgcolor a:hover {
+    text-decoration: underline;
+}
+
+
+/* fin header  */
+
+.titre_banner {
+    text-align: center;
+    color: var(--fontcolor);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* css contenu page */
+
+.img_banner {
+    height: 380px;
+    width: 269px;
+}
+
+.banner {
+    background: url(../../../assets/assets/images/logo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 400px;
+}
+
+h1 {
+    text-align: center;
+    /* color: var(--fontcolor); */
+    color: white;
+    padding-top: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* fin banniere */
+
+
+/* début banner*/
+
+.titre_banner {
+    color: var(--fontcolorwhite) !important;
+    font-size: 22px;
+}
+
+.img_banner {
+    height: 380px;
+    width: 269px;
+}
+
+#banner {
+    /* background-image: url(./img/logoMin4.jpg) */
+}
+
+p {
+    text-align: center;
+}
+
+
+/* fin banniere */

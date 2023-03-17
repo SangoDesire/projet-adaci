@@ -1,0 +1,27 @@
+/* début header */
+
+header {
+    /* background-color: var(--bgcolor); */
+    height: 100px;
+}
+
+.logo-navbar {
+    height: var(--imSize);
+    width: var(--imSize);
+    margin: 0 0 0 20px;
+}
+
+.navbar_bgcolor {
+    background-color: var(--bgcolor) !important;
+}
+
+.navbar_bgcolor a {
+    /* color: var(--fontcolorwhite) !important; */
+}
+
+.navbar_bgcolor a:hover {
+    text-decoration: underline;
+}
+
+
+/* fin header */
