@@ -3,21 +3,21 @@
     <form (ngSubmit)="register()">
       <h1 class="h3 mb-3 fw-normal">Inscription</h1>
       <div class="form-floating">
-        <input type="text" class="form-control" id="nom" name="nom" [(ngModel)] ="userCompte.lastName" placeholder="name@example.com">
+        <input type="text" class="form-control" id="nom" name="nom" [(ngModel)] ="userCompte.lastName" placeholder="lastName">
         <label for="floatingInput">Nom</label>
       </div><div class="form-floating">
-        <input type="text" class="form-control" id="firstName" name="firstName" [(ngModel)] ="userCompte.firstName" placeholder="name@example.com">
+        <input type="text" class="form-control" id="firstName" name="firstName" [(ngModel)] ="userCompte.firstName" placeholder="lastName">
         <label for="floatingInput">Prenoms</label>
       </div><div class="form-floating">
-        <input type="text" class="form-control" id="contact" name="contact" [(ngModel)] ="userCompte.contact" placeholder="name@example.com">
+        <input type="text" class="form-control" id="contact" name="contact" [(ngModel)] ="userCompte.contact" placeholder="lastName">
         <label for="floatingInput">Contacts</label>
       </div>
       <div class="form-floating">
-        <input type="email" class="form-control" id="mail" name="mail" [(ngModel)] ="userCompte.mail" placeholder="name@example.com">
+        <input type="email" class="form-control" id="mail" name="mail" [(ngModel)] ="userCompte.mail" placeholder="lastName">
         <label for="floatingInput">Email address</label>
       </div>
       <div class="form-floating">
-        <input type="password" class="form-control" id="passwd" name="passwd"  [(ngModel)] ="userCompte.passwd" placeholder="Password">
+        <input type="password" class="form-control" id="passwd" name="passwd"  [(ngModel)] ="userCompte.passwd" placeholder="lastName">
         <label for="floatingPassword">Password</label>
       </div>
       <button class="w-100 btn btn-lg btn-primary" type="submit">S'inscrire</button>

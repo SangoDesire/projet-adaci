@@ -12,7 +12,7 @@ h1 {
     color: white;
     padding-top: 150px;
     opacity: 1px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Manrope', sans-serif;
 }
 
 h2 {
@@ -20,5 +20,5 @@ h2 {
     color: var(--fontcolor);
     /* color: white; */
     padding-top: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Manrope', sans-serif;
 }

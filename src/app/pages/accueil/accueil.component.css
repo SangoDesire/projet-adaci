@@ -22,7 +22,7 @@
 /* début header */
 
 header {
-    height: 100px;
+    height: 50px;
 }
 
 .logo-navbar {
@@ -33,9 +33,8 @@ header {
 
 .navbar_bgcolor {
     background-color: var(--bgcolor) !important;
+    height: 100px;
 }
-
-.navbar_bgcolor a {}
 
 .navbar_bgcolor a:hover {
     text-decoration: underline;
@@ -46,8 +45,9 @@ header {
 
 .titre_banner {
     text-align: center;
-    color: var(--fontcolor);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 200px;
+    color: rgb(250, 243, 243);
+    font-family: 'Manrope', sans-serif;
 }
 
 
@@ -66,12 +66,13 @@ header {
     height: 400px;
 }
 
-h1 {
+h1,
+h4,
+p {
     text-align: center;
     /* color: var(--fontcolor); */
-    color: white;
-    padding-top: 150px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5px;
+    font-family: 'Manrope', sans-serif;
 }
 
 
@@ -81,8 +82,9 @@ h1 {
 /* début banner*/
 
 .titre_banner {
-    color: var(--fontcolorwhite) !important;
-    font-size: 22px;
+    font-size: 29px;
+    color: #d39219;
+    font-weight: bold;
 }
 
 .img_banner {
@@ -92,10 +94,6 @@ h1 {
 
 #banner {
     /* background-image: url(./img/logoMin4.jpg) */
-}
-
-p {
-    text-align: center;
 }
 
 

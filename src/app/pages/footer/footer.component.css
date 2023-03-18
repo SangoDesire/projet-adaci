@@ -7,6 +7,7 @@ footer {
 .single-content {
     text-align: center;
     padding: 115px 0;
+    font-family: 'Manrope', sans-serif;
 }
 
 .single-box p {
@@ -18,12 +19,14 @@ footer {
     font-size: 16px;
     font-weight: 700;
     color: #fff;
+    font-family: 'Manrope', sans-serif;
 }
 
 .single-box .card-area i {
     color: #ffffff;
     font-size: 20px;
     margin-right: 10px;
+    font-family: 'Manrope', sans-serif;
 }
 
 .single-box ul {
@@ -36,12 +39,14 @@ footer {
     color: #fff;
     line-height: 2.5;
     font-weight: 100;
+    font-family: 'Manrope', sans-serif;
 }
 
 .single-box h2 {
     color: #fff;
     font-size: 20px;
     font-weight: 700;
+    font-family: 'Manrope', sans-serif;
 }
 
 #basic-addon2 {
@@ -52,6 +57,7 @@ footer {
 .socials i {
     font-size: 18px;
     margin-right: 15px;
+    font-family: 'Manrope', sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -64,4 +70,9 @@ footer {
     .single-box {
         margin-bottom: 50px;
     }
+}
+
+.address {
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
 }

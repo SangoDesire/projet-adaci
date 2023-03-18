@@ -1,58 +1,61 @@
-<header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
-  <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6" href="#">DigitMin-CI</a>
-  <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <input class="form-control form-control-blue w-100 rounded-3 border-2 " type="text" placeholder="Recherche" aria-label="Search" >
+<!-- start Dashbord header -->
+<header class="navbar navbar-white sticky-top  flex-md-nowrap p-0 shadow">
+  <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-8 " href="#">DigitMin-CI</a>
+  <!-- <button class="navbar-toggler position-absolute " type="button" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+  </button> -->
+  <input id="search" class="form-control form-control-blue w-100  rounded-3 border-2 " type="text" placeholder="Recherche" aria-label="Search" >
   <div class="navbar-nav">
-    <div class="nav-item text-nowrap">
-      <a class="nav-link px-3" href="#">Sign out</a>
+    <div class="nav-item text-nowrap" >
+      <a class="nav-link px-3"  href="#" > <i class="bi bi-ethernet"> </i>Se déconnecter</a>
+
     </div>
   </div>
 </header>
+<!-- end start Dashbord header -->
 
-<div class="container-fluid">
+<!--start Dashbord content -->
+<div class="container-fluid dashboard">
   <div class="row">
-    <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
-      <div class="position-sticky pt-3 sidebar-sticky">
+    <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-white sidebar collapse">
+      <div class="position-sticky pt-3 sidebar-sticky bg-dark" class="sidebar" >
         <ul class="nav flex-column">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">
+            <i class="bi bi-clipboard2-data-fill"></i>
             <!--remplacer span par des bi pour logo ou icons -->
-              <span data-feather="home" class="align-text-bottom"></span>
               Dashboard
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" routerLink="/dashboard/nouvelle-demande">
-             <i class="bi bi-plus-lg"></i>
+          <li class="nav-item " class="new">
+            <a class="nav-link"  href="#"  routerLink="/dashboard/nouvelle-demande">
+             <i class="bi bi-newspaper"></i>
               Nouvelle Demande
             </a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#" routerLink="/dashboard/suivi-demande">
-              <span data-feather="shopping-cart" class="align-text-bottom"></span>
-              Suivi de demande
+            <a class="nav-link" href="#"  routerLink="/dashboard/suivi-demande">
+              <i class="bi bi-eye"></i>
+              Suivi de Demande
             </a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#" routerLink="/dashboard/demandes-encours">
-              <span data-feather="users" class="align-text-bottom"></span>
-              Demande en cours
+            <a class="nav-link" href="#"  routerLink="/dashboard/demandes-encours">
+              <i class="bi bi-chat-square-text-fill "></i>
+              Demande en Cours
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" routerLink="/dashboard/demandes-validees">
-              <span data-feather="bar-chart-2" class="align-text-bottom"></span>
-              Demande validées
+            <a class="nav-link " href="#" routerLink="/dashboard/demandes-validees">
+              <i class="bi bi-file-richtext-fill"></i>
+              Demandes Validées
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="/dashboard/demandes-rejetees">
-              <span data-feather="layers" class="align-text-bottom"></span>
-              Demande rejetées
+            <a class="nav-link"  routerLink="/dashboard/demandes-rejetees">
+              <i class="bi bi-files-alt"></i>
+              Demandes rejetées
             </a>
           </li>
         </ul>
