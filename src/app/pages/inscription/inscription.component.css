@@ -1,0 +1,26 @@
+.container {
+    background-color: rgb(146, 167, 167);
+    /* background-size: 5px; */
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+
+/* form-sign css */
+
+.form-signin {
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+}
+
+
+/* button connecter css */
+
+.butt:hover {
+    width: 200px;
+    border-radius: 3px;
+    font-family: 'Manrope', sans-serif;
+    background-color: dodgerblue;
+}

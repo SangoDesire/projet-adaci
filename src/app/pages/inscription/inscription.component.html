@@ -1,26 +1,26 @@
 <div class="container">
-  <main class="form-signin w-100 m-auto">
+  <main class="form-signin text-light w-50 m-auto">
     <form (ngSubmit)="register()">
-      <h1 class="h3 mb-3 fw-normal">Inscription</h1>
-      <div class="form-floating">
-        <input type="text" class="form-control" id="nom" name="nom" [(ngModel)] ="userCompte.lastName" placeholder="lastName">
-        <label for="floatingInput">Nom</label>
-      </div><div class="form-floating">
-        <input type="text" class="form-control" id="firstName" name="firstName" [(ngModel)] ="userCompte.firstName" placeholder="lastName">
-        <label for="floatingInput">Prenoms</label>
-      </div><div class="form-floating">
-        <input type="text" class="form-control" id="contact" name="contact" [(ngModel)] ="userCompte.contact" placeholder="lastName">
-        <label for="floatingInput">Contacts</label>
+      <h1 class="h3 mb-2 ">Inscription</h1>
+      <div class="floating-padding-y">
+        <input type="text" class="form-control" id="nom" name="nom" [(ngModel)] ="userCompte.lastName" placeholder="nom">
+        <label for="floatingInput"></label>
+      </div><div class="floating-padding-y">
+        <input type="text" class="form-control" id="firstName" name="firstName" [(ngModel)] ="userCompte.firstName" placeholder="Prenoms">
+        <label for="floatingInput"></label>
+      </div><div class="floating-padding-y">
+        <input type="text" class="form-control" id="contact" name="contact" [(ngModel)] ="userCompte.contact" placeholder="contact">
+        <label for="floatingInput"></label>
       </div>
-      <div class="form-floating">
-        <input type="email" class="form-control" id="mail" name="mail" [(ngModel)] ="userCompte.mail" placeholder="lastName">
-        <label for="floatingInput">Email address</label>
+      <div class="floating-padding-y">
+        <input type="email" class="form-control" id="mail" name="mail" [(ngModel)] ="userCompte.mail" placeholder="Mail">
+        <label for="floatingInput"></label>
       </div>
-      <div class="form-floating">
-        <input type="password" class="form-control" id="passwd" name="passwd"  [(ngModel)] ="userCompte.passwd" placeholder="lastName">
-        <label for="floatingPassword">Password</label>
+      <div class="floating-padding-y">
+        <input type="password" class="form-control" id="passwd" name="passwd"  [(ngModel)] ="userCompte.passwd" placeholder="Mot de Passe">
+        <label for="floatingPassword"></label>
       </div>
-      <button class="w-100 btn btn-lg btn-primary" type="submit">S'inscrire</button>
+      <button class="btn btn-lg btn-default text-light butt" type="submit">S'inscrire</button>
     </form>
   </main>
 

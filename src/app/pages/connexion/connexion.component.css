@@ -1,0 +1,36 @@
+.container {
+    background-color: rgb(146, 167, 167);
+    /* background-size: 5px; */
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* form-sign css */
+
+.form-sign {
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+}
+
+
+/* button connecter css */
+
+.butt:hover {
+    width: 200px;
+    border-radius: 3px;
+    font-family: 'Manrope', sans-serif;
+    background-color: dodgerblue;
+}
+
+
+/*  checkbox button css*/
+
+.checkbox {
+    font-family: 'Manrope', sans-serif;
+}
+
+
+/* form content css */
