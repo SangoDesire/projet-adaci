@@ -16,6 +16,8 @@ import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
 import { ToastrModule, ToastNoAnimation, ToastNoAnimationModule } from 'ngx-toastr';
+import { PaiementComponent } from './pages/paiement/paiement.component';
+import { ProfilComponent } from './pages/profil/profil.component';
 
 
 @NgModule({
@@ -30,6 +32,8 @@ import { ToastrModule, ToastNoAnimation, ToastNoAnimationModule } from 'ngx-toas
     ConnexionComponent,
     InscriptionComponent,
     ConnexionInscriptionComponent,
+    PaiementComponent,
+    ProfilComponent,
   ],
   imports: [
     BrowserModule,

@@ -59,7 +59,8 @@ header {
 }
 
 .banner {
-    background: url(../../../assets/assets/images/logo3.jpg);
+    /* background: url(../../../assets/assets/images/apropos.jpg); */
+    background-color: rgb(46, 90, 200);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
@@ -83,12 +84,12 @@ p {
 
 .titre_banner {
     font-size: 29px;
-    color: #d39219;
+    color: white;
     font-weight: bold;
 }
 
 .img_banner {
-    height: 380px;
+    height: 400px;
     width: 269px;
 }
 

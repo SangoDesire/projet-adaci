@@ -1,13 +1,6 @@
 footer {
     left: 100px;
     width: 100vw;
-    /* background-color: #27254e9b */
-}
-
-.single-content {
-    text-align: center;
-    padding: 115px 0;
-    font-family: 'Manrope', sans-serif;
 }
 
 .single-box p {
@@ -60,17 +53,20 @@ footer {
     font-family: 'Manrope', sans-serif;
 }
 
-@media (max-width: 767px) {
+
+/* @media (max-width: 767px) {
     .single-box {
         margin-bottom: 50px;
     }
-}
+} */
 
+
+/* 
 @media (min-width: 768px) and (max-width: 991px) {
     .single-box {
         margin-bottom: 50px;
     }
-}
+} */
 
 .address {
     text-align: center;

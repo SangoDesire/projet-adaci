@@ -1,0 +1,29 @@
+body {
+    background: #C5E1A5;
+}
+
+form {
+    width: 40%;
+    margin: 20px auto;
+    background: #efefef;
+    padding: 50px 120px 20px 100px;
+    text-align: center;
+    -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    position: relative;
+    margin: 40px 0px;
+    cursor: pointer;
+}
+
+.bi {
+    margin-right: 10px;
+}
+
+
+/* .form_img {
+    background-color: rgb(194, 209, 204);
+} */

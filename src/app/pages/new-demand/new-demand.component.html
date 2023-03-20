@@ -2,56 +2,60 @@
 
   <!--  dasboard et style-->
   <h1 class="h2">Nouvelle Demande</h1>
-  <i class="bi bi-journal-arrow-up " style="font-size: 30px "></i>
-
+    <i class="bi bi-journal-arrow-up " style="font-size: 30px "></i>
 </div>
 
- <div class="container align-items-center">
-    <form>
-      <div class="row">
-        <div class="col-md-6 col-sm-12">
-          <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
-              <label for="floatingInput">N° Registre de commerce </label>
-          </div>
-      </div>
+<div class="container align-items-center">
+  <form>
+    <div class="row">
+      <!-- <div class="col-md-6 col-sm-12">
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">N° Registre de commerce </label>
+        </div>
+      </div> -->
 
-      <div class="col-md-6 col-sm-12">
-        <div class="form-floating">
+    <!-- <div class="col-md-6 col-sm-12">
+      <div class="form-floating">
           <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
             <label for="floatingPassword">Nom de l'Entreprise</label>
-          </div>
-          </div>
-          <!-- tableau  -->
-          <table class="table border-secondary table-hover table-striped table-responsive">
-    <thead class="table-danger">
-    <tr>
-      <th scope="col">Numéro Document</th>
-      <th scope="col">Libellé document</th>
-      <th scope="col">Nombre d'exemplaire</th>
-      <th scope="col">Fichier-joint</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Photo d'Identité du Gérant</td>
-      <td> <input type="number" value="1" class="form-control" min="1" max="20"/></td>
-      <td><input class="form-control" type="file" id="formFile"></td>
-       <button type="button" class="btn btn-outline-primary btn-sm">Details</button>
-      <button type="button" class="btn btn-outline-secondary btn-sm">Rejeter</button>
+      </div>
+    </div> -->
 
+    <!-- definition d'un tableau  -->
+    <table class="table border-secondary table-hover table-striped table-responsive">
 
-    </tr>
+      <!-- entête du tableau -->
+      <thead class="table-danger">
+        <tr>
+          <th scope="col">Numéro Document</th>
+          <th scope="col">Libellé document</th>
+          <th scope="col">Nombre d'exemplaire</th>
+          <th scope="col">Fichier-joint</th>
+        </tr>
+      </thead>
 
-  </tbody>
-</table>
+      <!-- debut corps de l'entête du tableau -->
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+            <td>Photo d'Identité du Gérant</td>
+            <td> <input type="number" value="1" class="form-control" min="1" max="20"/></td>
+            <td><input class="form-control" type="file" id="formFile"></td>
+            <button type="button" class="btn btn-outline-primary btn-sm">Details</button>
+            <button type="button" class="btn btn-outline-warning btn-sm">Rejeter</button>
+            <button type="button" class="btn btn-outline-success btn-sm">Valider</button>
+            <button type="button" class="btn btn-outline-secondary btn-sm">Envoyer</button>
+            <button type="button" class="btn btn-outline-danger btn-sm">Supprimer</button>
+        </tr>
+      </tbody>
+      <!-- fin corps de l'entête du tableau -->
 
-         </div>
+    </table>
 
-         <!-- row 2 -->
+    </div>
 
-      </form>
+   </form>
 
 </div>
 

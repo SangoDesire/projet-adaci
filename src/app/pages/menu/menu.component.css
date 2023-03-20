@@ -1,13 +1,3 @@
-/* début header */
-
-
-/* .logo-navbar {
-    height: var(--imSize);
-    width: var(--imSize);
-    margin: 0 0 0 20px;
-} */
-
-
 /* css navbar */
 
 .navbar {
@@ -15,12 +5,7 @@
 }
 
 .navbar_bgcolor {
-    /* background-color: var(--bgcolor) !important; */
     background-color: white;
-}
-
-.navbar_bgcolor a {
-    /* color: var(--fontcolorwhite) !important; */
 }
 
 .navbar_bgcolor a:hover {

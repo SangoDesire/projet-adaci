@@ -1,0 +1,27 @@
+/* a href css */
+
+.box {
+    background-color: grey;
+}
+
+a {
+    text-decoration: none;
+    color: #0062cc;
+    border-bottom: 2px solid #0062cc;
+    font-family: 'Manrope', sans-serif;
+}
+
+.box-part {
+    background: white;
+    border-radius: 5px;
+    padding: 20px 5px;
+    margin: 20px 0px;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+/* h5 css */
+
+h5 {
+    font-family: 'Manrope', sans-serif;
+}
