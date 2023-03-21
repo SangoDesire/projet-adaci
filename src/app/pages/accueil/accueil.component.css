@@ -59,7 +59,7 @@ header {
 }
 
 .banner {
-    /* background: url(../../../assets/assets/images/apropos.jpg); */
+    background: url(../../../assets/assets/images/apropos.jpg);
     background-color: rgb(46, 90, 200);
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,7 +84,7 @@ p {
 
 .titre_banner {
     font-size: 29px;
-    color: white;
+    color: orange;
     font-weight: bold;
 }
 

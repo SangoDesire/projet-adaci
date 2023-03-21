@@ -23,7 +23,7 @@ export class InscriptionComponent {
   private route : Router ) {
     this.userCompte = new CompteUser();
   }
-
+//Connexion 
   register() {
     this.compteUserApiService.inscription(this.userCompte).subscribe({
       next: response => {

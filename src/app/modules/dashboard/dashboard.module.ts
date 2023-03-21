@@ -24,6 +24,16 @@ import { RejeteesComponent } from '../../pages/rejetees/rejetees.component';
   imports: [
     CommonModule,
     DashboardRoutingModule
+  ],
+  exports: [
+    DashboardComponent,
+    DashboardHomeComponent,
+    NewDemandComponent,
+    SuiviDemandComponent,
+    DemandEncoursComponent,
+    DemandesValideesComponent,
+    RejeteesComponent
   ]
+
 })
 export class DashboardModule { }

@@ -13,11 +13,13 @@ import { ConnexionComponent } from './pages/connexion/connexion.component';
 import { InscriptionComponent } from './pages/inscription/inscription.component';
 import { ConnexionInscriptionComponent } from './pages/connexion-inscription/connexion-inscription.component';
 import { FormsModule } from '@angular/forms';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
 import { ToastrModule, ToastNoAnimation, ToastNoAnimationModule } from 'ngx-toastr';
 import { PaiementComponent } from './pages/paiement/paiement.component';
 import { ProfilComponent } from './pages/profil/profil.component';
+import { DashboardModule } from './modules/dashboard/dashboard.module';
+import { EnvoiComponent } from './pages/envoi/envoi.component';
+
 
 
 @NgModule({
@@ -34,15 +36,16 @@ import { ProfilComponent } from './pages/profil/profil.component';
     ConnexionInscriptionComponent,
     PaiementComponent,
     ProfilComponent,
+    EnvoiComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    NgbModule,
     HttpClientModule,
     ToastNoAnimationModule.forRoot(),
-
+    DashboardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
