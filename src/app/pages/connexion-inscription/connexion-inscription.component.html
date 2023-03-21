@@ -1,28 +1,36 @@
 
-<div class="container">
-<div class="frame">
-  <div class="nav">
-    <ul class="links">
-      <li class="signin-active"><a class="btn btn-outline-primary mb-2 mt-2" (click)="onclickExistant()"> Utilisateur existant ? Connectez-vous 
+<app-menu>
+</app-menu>
+
+<br>
+<div class="container text-center mt-5">
+  <div class="row">
+    <div class="col">
+      <a class="btn btn-outline-primary mb-2 me-3" (click)="onclickExistant()"> Connectez-vous
         </a>
-      </li>
-      <li class="signup-active"><a class="btn btn-outline-primary mb-2" (click)="onclickNouvo()">Nouvel Utilisateur ? Inscrivez-vous</a></li>
-    </ul>
+      <a class="btn btn-outline-primary mb-2" (click)="onclickNouvo()"> Inscrivez-vous</a>
+    </div>
   </div>
-  <div *ngIf="existant">
+  <div class="row">
+
+    <div class="col">
+  <div *ngIf="existant && affiche">
    <app-connexion>
   </app-connexion>
 
   </div>
 
-<div *ngIf="nouvo">
+<div *ngIf="nouvo && affiche">
 
   <app-inscription>
   </app-inscription>
 
 </div>
-</div>
-</div>
+    </div>
+
+    </div>
+
+
 
 
 

@@ -11,7 +11,7 @@ export class DocumentApiService {
   constructor(private _apiRequestService: ApiRequestService) {
   }
 
- //API  pour la document 
+ //API  pour le document
  findAll() {
    return this._apiRequestService.get(url_path.DOCUMENT_BASE)
   }

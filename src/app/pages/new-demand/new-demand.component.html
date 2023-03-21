@@ -5,8 +5,8 @@
     <i class="bi bi-journal-arrow-up " style="font-size: 30px "></i>
 </div>
 
-<div class="container align-items-center">
-  <form>
+<div class="container align-items-center" style="height:1200px">
+  <form class="">
     <div class="row">
       <div class="col-md-6 col-sm-12">
         <div class=" mb-2">
@@ -28,8 +28,7 @@
       <!-- entête du tableau -->
       <thead class="table-danger ">
         <tr>
-          <th scope="col
-          ">Numéro Document</th>
+          <th scope="col">N° </th>
           <th scope="col">Libellé document</th>
           <th scope="col">Nombre d'exemplaire</th>
           <th scope="col">Fichier-joint</th>
@@ -38,16 +37,13 @@
 
       <!-- debut corps de l'entête du tableau -->
       <tbody>
-        <tr>
-          <th scope="row">1</th>
-            <td>Photo d'Identité du Gérant</td>
-            <td> <input type="number" value="1" class="form-control" min="1" max="20"/></td>
-            <td><input class="form-control" type="file" id="formFile"></td>
-            <button type="button" class="btn btn-outline-primary btn-sm">Details</button>
-            <button type="button" class="btn btn-outline-warning btn-sm">Rejeter</button>
-            <button type="button" class="btn btn-outline-success btn-sm">Valider</button>
-            <button type="button" class="btn btn-outline-secondary btn-sm">Envoyer</button>
-            <button type="button" class="btn btn-outline-danger btn-sm">Supprimer</button>
+        <tr *ngFor ="let doc of tabdoc;let i = index">
+
+          <td scope="row">{{i + 1}}</td>
+            <td style= "width:350px " class="text-white">{{doc.libelle}}</td>
+            <td> <input type="number" value="1" class="form-control" style="width:60px;"/></td>
+            <td><input class="form-control" type="file" id="formFile" style="width:140px"></td>
+
         </tr>
       </tbody>
       <!-- fin corps de l'entête du tableau -->
@@ -57,6 +53,8 @@
     </div>
 
    </form>
+
+    <button type="button" class="btn btn-success btn-sm ml-2 btncenter mt-3">Envoyer</button>
 
 </div>
 

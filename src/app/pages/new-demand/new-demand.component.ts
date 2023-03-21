@@ -18,7 +18,7 @@ export class NewDemandComponent implements OnInit{
   ngOnInit() {
     this.document.findAll().subscribe((data: any) => {
       console.log(data)
-      this.tabdoc = data
+      this.tabdoc = data as Document[]
       console.log("TREZA" + this.tabdoc);
     });
 
