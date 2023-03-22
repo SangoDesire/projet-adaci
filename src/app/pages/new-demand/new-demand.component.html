@@ -26,7 +26,7 @@
     <table class="table border-secondary table-hover table-striped table-responsive">
 
       <!-- entête du tableau -->
-      <thead class="table-danger ">
+      <thead class="table-dark ">
         <tr>
           <th scope="col">N° </th>
           <th scope="col">Libellé document</th>
@@ -40,10 +40,11 @@
         <tr *ngFor ="let doc of tabdoc;let i = index">
 
           <td scope="row">{{i + 1}}</td>
-            <td style= "width:350px " class="text-white">{{doc.libelle}}</td>
+            <td style= "width:350px " >{{doc.libelle}}</td>
             <td> <input type="number" value="1" class="form-control" style="width:60px;"/></td>
-            <td><input class="form-control" type="file" id="formFile" style="width:140px"></td>
-
+           
+          <td><input type="file"
+      name="avatar" class="loadfile"  id="formFile" ></td>
         </tr>
       </tbody>
       <!-- fin corps de l'entête du tableau -->
@@ -53,9 +54,12 @@
     </div>
 
    </form>
+  <div class="d-flex justify-content-center align-items-center" >
+  <button type="button" class="btn btn-success btn-sm p-2 ml-2 btncenter mt-3">Envoyer</button>
+  </div>
 
-    <button type="button" class="btn btn-success btn-sm ml-2 btncenter mt-3">Envoyer</button>
+    
 
 </div>
 
-
+ 

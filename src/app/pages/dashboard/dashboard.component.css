@@ -102,3 +102,12 @@
 .sidebar {
     color: #727272;
 }
+
+#search {
+    padding: 0;
+    width: 250px;
+}
+
+.digit {
+    background-color: var(--blue);
+}

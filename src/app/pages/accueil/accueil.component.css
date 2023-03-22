@@ -45,9 +45,10 @@ header {
 
 .titre_banner {
     text-align: center;
-    margin-top: 200px;
+    margin-top: 100px;
     color: rgb(250, 243, 243);
     font-family: 'Manrope', sans-serif;
+    font-size: 20px;
 }
 
 
@@ -74,27 +75,6 @@ p {
     /* color: var(--fontcolor); */
     margin-top: 5px;
     font-family: 'Manrope', sans-serif;
-}
-
-
-/* fin banniere */
-
-
-/* début banner*/
-
-.titre_banner {
-    font-size: 29px;
-    color: orange;
-    font-weight: bold;
-}
-
-.img_banner {
-    height: 400px;
-    width: 269px;
-}
-
-#banner {
-    /* background-image: url(./img/logoMin4.jpg) */
 }
 
 

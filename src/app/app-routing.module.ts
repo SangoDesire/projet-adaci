@@ -14,6 +14,8 @@ import { DemandEncoursComponent } from './pages/demand-encours/demand-encours.co
 import { DemandesValideesComponent } from './pages/demandes-validees/demandes-validees.component';
 import { RejeteesComponent } from './pages/rejetees/rejetees.component';
 import { DashboardModule } from './modules/dashboard/dashboard.module';
+import { ConnexionComponent } from './pages/connexion/connexion.component';
+import { InscriptionComponent } from './pages/inscription/inscription.component';
 
 const routes: Routes = [
   {
@@ -30,9 +32,15 @@ const routes: Routes = [
     component: AgrementComponent
    },
   {
-    path:'connexion-inscription',
-    component:ConnexionInscriptionComponent
+    path:'connexion',
+    component:ConnexionComponent
   },
+
+  {
+    path:'register',
+    component:InscriptionComponent
+  },
+
   {
     path:'dashboard',
     loadChildren:()=>import('./modules/dashboard/dashboard.module').then(m=>m.DashboardModule),

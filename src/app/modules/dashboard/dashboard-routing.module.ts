@@ -14,7 +14,7 @@ const routes: Routes = [
     children: [
       {
         path:'',
-        component:DashboardHomeComponent
+        component:NewDemandComponent
       },
       {
         path:'nouvelle-demande',

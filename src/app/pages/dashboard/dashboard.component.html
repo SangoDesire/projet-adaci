@@ -1,9 +1,9 @@
 
 <!-- start Dashbord header -->
-<header class="navbar navbar-white sticky-top  flex-md-nowrap p-0 shadow bg-info" >
-  <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-8 text-white" href="#">DigitMin-CI</a>
-<!-- <button class="navbar-toggler position-absolute " type="button" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
-</button> -->
+<header class="navbar sticky-top digit flex-md-nowrap p-0 " >
+  <a class="navbar-brand digit col-md-3 col-lg-2 me-0 px-3 fs-8 text-white bg-red" href="#">DigitMin-CI</a> 
+ <button class="navbar-toggler position-absolute " type="button" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+</button> 
 
     <input id="search" class="form-control form-control-blue w-30  rounded-3 border-2 " type="text" placeholder="Recherche" aria-label="Search" >
       <div class="navbar-nav">
@@ -18,44 +18,44 @@
 
 <!--start Dashbord content -->
 <div class="container-fluid ">
-  <div class="row" >
+  <div class="row " >
     <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block sidebar collapse" >
-      <div class=" pt-3 sidebar-sticky sidebar "  style="bakground-color:red">
-        <ul class="nav flex-column mt-2 ">
+      <div class=" pt-3 sidebar-sticky sidebar bg-dark  "  style="height:1000px;80px;color:red">
+        <ul class="nav flex-column mt-2">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">
+            <a class="nav-link active" aria-current="page" href="#" style="color:red">
             <i class="bi bi-clipboard2-data-fill"></i>
                Dashboard
             </a>
           </li>
           <li class="nav-item text-white" class="new">
-            <a class="nav-link"  href="#"  routerLink="/dashboard/nouvelle-demande">
+            <a class="nav-link"  href="#"  routerLink="/dashboard/nouvelle-demande" style="color:white">
              <i class="bi bi-newspaper"></i>
               Nouvelle Demande
             </a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#"  routerLink="/dashboard/suivi-demande">
+            <a class="nav-link" href="#"  routerLink="/dashboard/suivi-demande" style="color:white">
               <i class="bi bi-eye"></i>
               Suivi de Demande
             </a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#"  routerLink="/dashboard/demandes-encours">
+            <a class="nav-link" href="#"  routerLink="/dashboard/demandes-encours" style="color:white">
               <i class="bi bi-chat-square-text-fill "></i>
               Demande en Cours
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#" routerLink="/dashboard/demandes-validees">
+            <a class="nav-link " href="#" routerLink="/dashboard/demandes-validees"style="color:white">
               <i class="bi bi-file-richtext-fill"></i>
               Demandes Validées
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link"  routerLink="/dashboard/demandes-rejetees">
+            <a class="nav-link"  routerLink="/dashboard/demandes-rejetees"style="color:white">
               <i class="bi bi-files-alt"></i>
               Demandes rejetées
             </a>

@@ -5,8 +5,8 @@
 
       <!-- formulaire suivi -->
 <br>
-<h3 class="text-center bg-info">
-	LISTES DES DEMANDES
+<h3 class="text-center  suivi">
+	Liste des demandes
 </h3>
 
 <form>
@@ -16,19 +16,19 @@
 			<input id="table-filtering-search" class="form-control" type="text"/>
 		</div>
       <div style="margin-left:590px ">
-       <button type="button" class="btn btn-success me-2 ml-3">Validé</button>
-       <button type="button" class="btn btn-secondary me-2">Rejeté</button>
-      <button type="button" class="btn btn-dark me-2">En ours</button>
+       <button type="button" class="btn btn-success me-2 ml-3"><i class="bi bi-check-lg"></i></button>
+       <button type="button" class="btn btn-danger me-2"><i class="bi bi-x"></i></button>
+      <button type="button" class="btn btn-warning me-2"><i class="bi bi-arrow-clockwise"></i></button>
       </div>
 
 	</div>
 
 </form>
 
-<table class="table table-striped">
-	<thead>
+<table class="table">
+	<thead class="bg-dark text-white">
 		<tr>
-			<th scope="col">N° Document</th>
+			<th scope="col">N°Document</th>
 			<th scope="col">Libelle</th>
 			<th scope="col">Nombre exemplaire</th>
 			<th scope="col">Fichier</th>
@@ -45,7 +45,7 @@
 			<td>{{Document.libelle}}</td>
 			<td>{{Document.libelle}}</td>
 			<td>{{Document.libelle}}</td>
-			<td><button type="button" class="btn btn-info">Details</button></td>
+			<td><button type="button" class="btn details">Details</button></td>
 
 		</tr>
     <br>
