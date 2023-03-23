@@ -27,6 +27,7 @@ export class CompteUtilisateurApiService {
       data: JSON.stringify(registerData)
     });
   }
+  
  //API ¨pour la decoonexion 
   logout(id: number) {
     return this._apiRequestService.post({
