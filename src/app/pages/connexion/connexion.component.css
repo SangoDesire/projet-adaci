@@ -1,6 +1,5 @@
 .container {
     background-color: rgb(146, 167, 167);
-    /* background-size: 5px; */
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -18,12 +17,14 @@
 
 /* button connecter css */
 
+
+/* 
 .butt:hover {
     width: 200px;
     border-radius: 3px;
     font-family: 'Manrope', sans-serif;
     background-color: dodgerblue;
-}
+} */
 
 
 /*  checkbox button css*/
@@ -32,9 +33,39 @@
     font-family: 'Manrope', sans-serif;
 }
 
+
+/* 
 .container {
     margin-top: 150px;
+} */
+
+
+/* connexion css */
+
+.connexion {
+    font-size: 16px;
+    color: black;
+    font-family: 'Manrope', sans-serif;
 }
 
 
-/* form content css */
+/* checkbox css */
+
+.checkbox {
+    font-size: 15px;
+    color: black;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+/* css button se connecter  */
+
+.butconnect {
+    font-size: 15px;
+    background-color: blue;
+    font-family: 'Manrope', sans-serif;
+}
+
+.lock {
+    color: black;
+}

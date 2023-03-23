@@ -5,7 +5,7 @@
 
   <main class="form-sign text-light w-50 m-auto">
     <form (ngSubmit)="connexion()">
-      <h1 class="h3 mb-3">Connexion</h1>
+      <h2 class="h3 mb-3 lock"><i class="bi bi-lock-fill me-2"></i>Connexion</h2>
 
       <div class="floating-padding-y ">
         <input type="email" class="form-control" id="floatingInput" name="login" [(ngModel)] ="userCompte.login" placeholder="Adresse Mail">
@@ -16,8 +16,8 @@
         <label for="floatingPassword"></label>
       </div>
       <div class="col-sm-12">
-     <p class="text-center">
-     Avez-vous un compte?  sinon  .<a routerLink="/register">Cliquez Ici</a>
+     <p class="text-center connexion">
+     Avez-vous un compte ?  sinon .<a routerLink="/register"> Cliquez Ici</a>
 
      </p>
       </div>
@@ -26,9 +26,11 @@
         <label>
           <input  class="checkbox text-light" type="checkbox" value="remember-me"> Se Rappeler</label>
       </div>
-      <button  class=" btn btn-lg btn-default text-light butt" type="submit">Se connecter</button>
+      <button  class=" btn btn-lg btn-default text-light butconnect" type="submit">Se connecter</button>
     </form>
   </main>
 
 </div>
+
+
 
