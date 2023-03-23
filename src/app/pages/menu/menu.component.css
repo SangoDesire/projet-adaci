@@ -9,7 +9,7 @@
 }
 
 .navbar_bgcolor a:hover {
-    text-decoration: underline wavy rgb(2, 2, 51) 5px;
+    text-decoration: underline;
 }
 
 .navbar-brand {
@@ -17,9 +17,10 @@
     color: rgb(3, 19, 38)
 }
 
-a:hover {
+
+/* a:hover {
     color: rgb(158, 8, 8);
-}
+} */
 
 .connexion a:hover {
     color: rgb(29, 29, 146)

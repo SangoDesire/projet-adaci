@@ -21,20 +21,23 @@
 
 /* début header */
 
-header {
-    height: 50px;
-}
 
-.logo-navbar {
+/* header {
+    height: 50px;
+} */
+
+
+/* .logo-navbar {
     height: var(--imSize);
     width: var(--imSize);
     margin: 0 0 0 20px;
-}
+} */
 
-.navbar_bgcolor {
+
+/* .navbar_bgcolor {
     background-color: var(--bgcolor) !important;
     height: 100px;
-}
+} */
 
 .navbar_bgcolor a:hover {
     text-decoration: underline;
@@ -61,7 +64,6 @@ header {
 
 .banner {
     background: url(../../../assets/assets/images/apropos.jpg);
-    background-color: rgb(46, 90, 200);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
